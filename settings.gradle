@@ -1,2 +1,3 @@
+include ':step01service'
 include ':app'
 rootProject.name = "Review"
