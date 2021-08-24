@@ -17,8 +17,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-
+        
         // 안드로이드 8.0 버전 이상에서는 코드로 IntentFilter 등록을 해주어야한다.
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O){
             val filter = IntentFilter("com.elliot.testbr")

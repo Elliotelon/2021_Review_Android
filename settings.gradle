@@ -1,3 +1,5 @@
+include ':step04jsonparsing'
+include ':step03xmlpullparser'
 include ':step02broadcastreceiver2'
 include ':step02broadcastreceiver1'
 include ':step01service'
