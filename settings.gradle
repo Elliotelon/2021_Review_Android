@@ -1,3 +1,4 @@
+include ':step05intent'
 include ':step04jsonparsing'
 include ':step03xmlpullparser'
 include ':step02broadcastreceiver2'
