@@ -1,3 +1,4 @@
+include ':step06sharedpreferences'
 include ':step05intent'
 include ':step04jsonparsing'
 include ':step03xmlpullparser'
