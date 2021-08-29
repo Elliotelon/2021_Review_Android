@@ -1,3 +1,4 @@
+include ':step08dialog'
 include ':step07fragment'
 include ':step06sharedpreferences'
 include ':step05intent'
