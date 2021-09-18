@@ -10,3 +10,4 @@ include ':step02broadcastreceiver1'
 include ':step01service'
 include ':app'
 rootProject.name = "Review"
+include ':step10scopefunction'
