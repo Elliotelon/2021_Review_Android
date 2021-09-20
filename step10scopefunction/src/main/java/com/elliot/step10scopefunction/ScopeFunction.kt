@@ -1,6 +1,6 @@
 package com.elliot.step10scopefunction
 
-data class WHAT(val name: String, val age: Int)
+data class WHAT(var name: String, var age: Int)
 
 fun main() {
     //let
@@ -31,4 +31,15 @@ fun main() {
         println(it)
     } ?: "Known"
     println(V1)
+
+    println("--------------------------------------------")
+
+    //apply
+    val w3 = WHAT("Jackass", 16)
+    val r = w3.apply {
+        name = "Dip2K"
+        age = 45
+    }
+    println(w3)
+    println(r)
 }
