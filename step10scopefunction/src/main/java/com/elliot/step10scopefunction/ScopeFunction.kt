@@ -42,4 +42,18 @@ fun main() {
     }
     println(w3)
     println(r)
+
+    println("--------------------------------------------")
+
+    //with
+    val w4 = WHAT("Jackass", 16)
+    val r2 = w4?.let {
+        with(it) {
+            name = "Dip2K"
+            age = 43
+            "Good day!"
+        }
+    }
+    println(w4)
+    println(r2)
 }
