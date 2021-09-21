@@ -56,4 +56,20 @@ fun main() {
     }
     println(w4)
     println(r2)
+
+    println("--------------------------------------------")
+
+    //run
+    val v2 = run {
+        val w5 = WHAT("Jackass", 16)
+        w5
+    }
+    println(v2)
+    val vv = v2.run {
+        name = "Dip2K"
+        age = 43
+        "Good day !"
+    }
+    println(v2)
+    println(vv)
 }
