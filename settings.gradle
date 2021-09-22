@@ -11,3 +11,4 @@ include ':step01service'
 include ':app'
 rootProject.name = "Review"
 include ':step10scopefunction'
+include ':step11recyclerview'
